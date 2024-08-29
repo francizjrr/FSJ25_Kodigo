@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: auto;
+}
+
+.recipe-container {
+    width: 90vw;
+    max-width: 70rem; /* Aproximadamente 800px si el font-size base es 16px */
+    margin: 5vh auto;
+}
+
+.recipe-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.recipe-header img {
+    width: 100%;
+    max-height: 50vh;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.recipe-times {
+    display: flex;
+    justify-content: space-around;
+    margin: 5vh 0;
+}
+
+.time-box {
+    background-color: #f6f0f8;
+    padding: 2vh;
+    border-radius: 1rem;
+    width: 20vw;
+    
+}
+
+.ingredients-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 5vh;
+    opacity: 90%;
+}
+
+.ingredients-list li {
+    margin-bottom: 1rem;
+}
+
+.room-text{
+    display: flex;
+    font-size: small;
+    margin: auto;
+    opacity: 70%;
+}
+
+.instructions-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 5vh;
+    opacity: 90%;
+    
+}
+
+.nutrition-facts{
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 5vh;
+    opacity: 90%;
+}
+
+
+/* Responsive Design */
+
+/* Media Querys (Estilo Responsive) para TABLETS*/
+@media (min-width: 768px) and (max-width: 992px){
+    .time-box{
+        width: 25vw;
+        margin-bottom: 3vh;
+    }
+
+    .recipe-times {
+        justify-content: space-between;
+    }
+    
+} 
+
+
+/* Media Querys (Estilo Responsive) para SMARTPHONE*/
+@media (min-width: 320px) and (max-width: 425px){
+    .time-box{
+        margin: 2vw;
+        width: 75vw;
+    }
+    
+    .recipe-times {
+        flex-direction: column;
+        align-items: center;
+    }
+} 
