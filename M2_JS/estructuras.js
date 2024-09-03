@@ -44,9 +44,16 @@ if(variableAux>10){
     console.log("No cumplio las espectativas");
 }
 
-
 if( variableAux>10 || variableAux>5){
     console.log("Esta es la respuesta true");
 }else {
     console.log("Esta es la respuesta false");   
+}
+
+let candena = "franciscoguez03@gmail.com"
+
+if("franciscoguez03@gmail.com" === candena=.trim()){
+    console.log("Es True");
+}else{
+    console.log("Es Falso");
 }
