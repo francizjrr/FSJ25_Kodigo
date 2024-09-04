@@ -79,7 +79,7 @@ function tipoVoid(){
 //Tipo Return -> Devuelven VALOR
 function tipoReturn () {  
     console.log("Hey me estoy ejecutando, soy la funcion con Return");
-      
+
     return "Soy una funcion tipo Return";
 }
 
