@@ -2,7 +2,7 @@
 
 //IF -> EVALUA CASOS VERDADEROS
 //IF ELSE -> EVALUAR CASOS VERDADEROS Y FALSOS
-/*
+
 let condicion = 10 === "10";
 
 if(condicion){
@@ -11,11 +11,11 @@ if(condicion){
     console.log("ESTE CODIGO SE EJECUTA SI ES FALSE");
 }
 
-/*  OPERADORES DE COMPARACION NUMERICOS
-    MAYOR QUE  >
-    MENOR QUE <
-    MENOR O IGUAL <=
-    MAYOR O IGUAL >=
+//OPERADORES DE COMPARACION NUMERICOS
+    //MAYOR QUE  >
+    //MENOR QUE <
+    //MENOR O IGUAL <=
+    //MAYOR O IGUAL >=
 
 
 if( 10 <= 10){
@@ -76,7 +76,7 @@ while(numero < 10 && numero > 2){
         numero++;
     }while(numero < 10 && numero >= 2)
     
-    */
+
 
   //FOR 
   //for(INIALIZACION ; CONDICION DE CORTE ; INCREMENTO/DECREMENTO ){ CODIGO A EJECUTAR }
