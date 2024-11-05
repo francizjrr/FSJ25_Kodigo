@@ -1,6 +1,7 @@
 import './App.css'
+import { Despedida } from './components/Despedida'
 import { Saludo }  from './components/Saludo'
-import {Saludo as Saludito} from './components/Saludo'
+//import {Saludo as Saludito} from './components/Saludo'
 
 function App() {
 //Comentario de una sola linea
@@ -16,7 +17,7 @@ function App() {
 
       {/* Llamada a un componente */}
       <Saludo/>
-      <Saludito />
+      <Despedida/>
     </>
   )
 }
